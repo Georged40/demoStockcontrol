@@ -16,8 +16,8 @@ public class OrderPanel2 extends JPanel implements ActionListener {
     // create a file to hold orders, upon submitting the order it clears
 
 
-    //comment below
-   // Storeroom orderRelatedPanel = new Storeroom();
+
+    Storeroom orderRelatedPanel = new Storeroom();
 
     StockItem[] storeroom1;
 

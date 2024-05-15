@@ -44,20 +44,20 @@ public class CreateEditPanel extends JFrame implements ActionListener {
 
     //bringing in order propertied
 
-    //commenting the below
 
-   // Storeroom forOrders = new Storeroom();
+
+    Storeroom forOrders = new Storeroom();
 
     //creating a tabbedPane to alternate my panels
     JTabbedPane tabbedPane;
 
     //creating an instance of the orderPanel
 
-    //commenting the below
-  //  OrderPanel2 panel2 = new OrderPanel2();
-   // ReceivingPanel panel3 = new ReceivingPanel();
-   // IssuesPanel panel4 = new IssuesPanel();
-  //  deletepanel panel5 = new deletepanel();
+
+   OrderPanel2 panel2 = new OrderPanel2();
+   ReceivingPanel panel3 = new ReceivingPanel();
+   IssuesPanel panel4 = new IssuesPanel();
+   deletepanel panel5 = new deletepanel();
 
 
     //stockItem attributes
@@ -323,11 +323,10 @@ public class CreateEditPanel extends JFrame implements ActionListener {
 
         tabbedPane.setBounds(0,0,830,580);
         tabbedPane.add("New Stock Item", panel);
-        //commented the below
-     //   tabbedPane.add("Order Stock", panel2);
-    //    tabbedPane.add("Receive Stock", panel3);
-     //   tabbedPane.add("Issue Stock", panel4);
-     //   tabbedPane.add("Delete Stock Item", panel5);
+        tabbedPane.add("Order Stock", panel2);
+        tabbedPane.add("Receive Stock", panel3);
+        tabbedPane.add("Issue Stock", panel4);
+        tabbedPane.add("Delete Stock Item", panel5);
 
         //this.setFont(font);
         this.setSize(850, 600);

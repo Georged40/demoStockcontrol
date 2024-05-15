@@ -13,10 +13,7 @@ import java.util.regex.Pattern;
 
 public class IssuesPanel extends JPanel implements ActionListener {
 
-
-
-    //commented below
-  //  Storeroom storeroom = new Storeroom();
+   Storeroom storeroom = new Storeroom();
 
     static int itemNumberPassed;
     static double receivedQty;
@@ -115,9 +112,7 @@ public class IssuesPanel extends JPanel implements ActionListener {
     IssuesPanel() throws IOException {
 
 
-        //commented below
-
-        // storeroom1 = storeroom.storeroom1;
+         storeroom1 = storeroom.storeroom1;
 
         itemPosition = 0;
 
